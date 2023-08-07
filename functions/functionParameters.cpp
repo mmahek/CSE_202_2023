@@ -21,10 +21,17 @@ using namespace std;
 // int main(){
 //     fullName("Hello", "World");
 // }
-void credentials(string name, float marks)
+// void credentials(string name, float marks)
+// {
+//     cout << "My name is  " << name << " And my marks were  " << marks << "%" ;
+// }
+
+int add(int num1, int num2)//int type function (user defined int type functions only) needs return , specify the type you are looking for
 {
-    cout << "My name is  " << name << " And my marks were  " << marks << "%" ;
+    return num1+num2;
 }
-int main(){
-    credentials("Mahek", 92.2 );
+
+int main(){// whereas int main fuction doesnot require this methodology, it understands the return type and doesnot asks for return type
+    // credentials("Mahek", 92.2 );/
+    cout << add(2, 5);
 }
