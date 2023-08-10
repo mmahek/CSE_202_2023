@@ -15,7 +15,32 @@ using namespace std;
 
 //}
 
+#include <iostream>
+using namespace std;
+
+class Building
+{
+    int door;
+    string doorColor;
+    int window;
+    string windowColor;
+    int elevator;
+
+    void
+    elevatorFunctioning()
+    {
+        // working of elevator
+    }
+};
+
+//access modifiers :
+//1. public
+//2. private
+//3. protector
 int main()
 {
+    Building b1;
+    b1.door;
+    b1.window;
 
 }
