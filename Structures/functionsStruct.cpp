@@ -39,9 +39,9 @@ int main()
 
 // defining the function declared above
 
-void displayInfo(employee emp) // emp will be replaced by the variable and hence the corresponding value for each variable will be displayed via the displayInfo function
+void displayInfo(employee empHelper) // emp will be replaced by the variable and hence the corresponding value for each variable will be displayed via the displayInfo function
 {
-    cout << "Age is : " << emp.age << endl;
-    cout << "Salary is : " << emp.salary << endl;
-    cout << "Employee ID is : " << emp.empId << endl;
+    cout << "Age is : " << empHelper.age << endl;
+    cout << "Salary is : " << empHelper.salary << endl;
+    cout << "Employee ID is : " << empHelper.empId << endl;
 }
