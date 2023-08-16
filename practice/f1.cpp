@@ -1,17 +1,11 @@
 #include<iostream>
+#include <limits.h>
 using namespace std;
-class BankAccount{
-    public: 
-    int balance;
-};
+// 
 int main(){
-    BankAccount account;
-    account.balance = 500;
+    int n;
+    int arr[100];
 
-    int depositAmount= 1000;
-    account.balance +=depositAmount;
-
-    int balance = account.balance;
-    cout<<balance;
-    return 0;
+    n = length(arr);
+    cout << n;
 }
