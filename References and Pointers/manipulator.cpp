@@ -8,6 +8,6 @@ using namespace std;
 int main(){ 
     int a = 123;
 
-    cout << setfill('') << setw(15) << a << endl;
+    cout << setfill('*') << setw(15) << a << endl;
     return 0;
 }
