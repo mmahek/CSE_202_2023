@@ -6,6 +6,9 @@ using namespace std;
 int main(){
 
     int var = 10;
-     int *ptr;l //this is a pointer variable
+     int *ptr = &var; //this is a pointer variable
+     cout << &var << endl; //both these &var and ptr will print address of var variable
+     cout << ptr << endl;
+     cout << *ptr<< endl; //this prints the value of variable whose address is stored in the pointer
     return 0;
 }
