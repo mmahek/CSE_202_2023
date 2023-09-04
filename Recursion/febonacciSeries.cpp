@@ -10,7 +10,8 @@ int fib(int n){// n is index or position
 }
 int climbStair(int n){
     //base case
-    if(n <= 1) return 1;
+    if(n < 2) return 1;
+    
 }
 int main(){
     fib()
