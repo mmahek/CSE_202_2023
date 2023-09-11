@@ -1,0 +1,2 @@
+inFile >> str;
+    // co
