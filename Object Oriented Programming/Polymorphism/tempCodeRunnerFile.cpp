@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+
+// Overload Not(!) operator
+
 class Fraction
 {
     int a;
@@ -30,16 +33,43 @@ public:
     {
         cout << "The fraction is : " << a << " / " << b;
     }
+
+    bool operator!()
+    {
+        // Fraction is considered "not zero" if either numerator or denominator is not zero.
+        return a != 0 || b != 0;
+    }
 };
+
 int main()
 {
     Fraction f1, f2, result;
-    cout << "Enter the first fraction " << endl;
+    cout << "Enter the first fraction:" << endl;
     f1.input();
-    cout << "\nEnter the second fraction " << endl;
+    cout << "\nEnter the second fraction:" << endl;
     f2.input();
 
     result = f1 * f2;
     result.output();
+
+    // Check if a fraction is not zero using the ! operator.
+    if (!f1)
+    {
+        cout << "\nf1 is not zero." << endl;
+    }
+    else
+    {
+        cout << "\nf1 is zero." << endl;
+    }
+
+    if (!f2)
+    {
+        cout << "f2 is not zero." << endl;
+    }
+    else
+    {
+        cout << "f2 is zero." << endl;
+    }
+
     return 0;
 }
