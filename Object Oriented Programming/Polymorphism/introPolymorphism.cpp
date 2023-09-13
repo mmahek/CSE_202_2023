@@ -33,7 +33,7 @@ int main()
     // string z = x + y;
     // cout << z;
 
-    cout << sum(1,2,3);//signature matches the thied sum function
+    cout << sum(1,2,3);//signature matches the third sum function
     return 0;
 }
 
