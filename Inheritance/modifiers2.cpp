@@ -17,6 +17,16 @@ public:
     }
 };
 
+class ProtectedDerived : protected Base{
+    public:
+    int getProtectedValue(){
+        return protected1;
+    }
+    int getPublicValue(){
+        return public1;
+    }
+};
+
 class PublicDerived : public Base
 {
 public:
@@ -28,7 +38,8 @@ public:
 int main()
 {
     PublicDerived obj1;
-
+    Base b1;
+    cout << "Public : " << b1.public1 << endl;//obj1.public1 will work as well
     // cout << "Public : " << obj1.public1 << endl;
 
     // cout << "Pribvate : " << obj1.getPrivateValue() << endl;
