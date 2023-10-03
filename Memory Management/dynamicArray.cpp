@@ -25,4 +25,4 @@ int main(){
     int ans = getSum(arr, n);
     cout << "Sum is: " << ans << endl;
     return 0;
-}
+}`
