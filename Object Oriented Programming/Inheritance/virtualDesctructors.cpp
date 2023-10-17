@@ -1,0 +1,3 @@
+// We have used one parent class(Base) and a derived class (child), inside both constructor and destructor are defined
+
+//Deleting an object of derived class using a pointer of parent class shows an undefined behaviour because it does not have virtual destructor. So when we delete the object of child class, it invokes the base class's destructor, but the chhild class's destructor is not invoked. As seen in logs, the destructor of child class is not invoked because the cbase class pointer can only remove the base class's destructor, which cause the problem of memory leak in the program.
