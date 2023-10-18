@@ -4,6 +4,7 @@
 
 /*
     1. Sequential container - It allows us to store elements that can accessed in sequential order e.g -Array, List, Vector.
+    
     2. Associative Containers - It allows us to store elements in sorted order, the order doesn't depend upon when the element is inserted. eg - Set, MAp, Multiset, Multimap
     
     3. Unordered Associative containers - It provides the unsorted version of associative containers. eg - Unordered set, unordered map, unordered multiset, unordered multimap

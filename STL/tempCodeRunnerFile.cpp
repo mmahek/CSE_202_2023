@@ -1,16 +1,4 @@
-     */
-// int main(){
-//     // vector<int> num = {1,2,3,4,5,5};
-
-//     // for(auto nums : num){
-//     //     cout << nums << " ";
-//     // }
-
-//     //set<int> num = {1,9,10,7,10};
-
-//     unordered_set<int> num - {4,2,9,7,10};
-//     for( auto nums : num){
-//         cout << nums << " ";
-//     }
-//     return 0;
-// }
+map<int, string> :: iterator iter;
+    // for(iter = student.begin(); iter != student.end(); iter++){
+    //     cout << iter->first << " - " << iter->second << endl;//print key - value
+    // }
