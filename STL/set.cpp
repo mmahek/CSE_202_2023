@@ -11,10 +11,23 @@ using namespace std;
     */
 
 int main(){
-     set<int> mySet; //= {5, 3, 8, 1, 3};
-    // for(auto val : mySet){
-    //     cout << val << " ";
-    // }
+    /*
+    //this prints elements of set in increasing order 
+     set<int> mySet = {5, 3, 8, 1, 3};
+    for(auto val : mySet){
+        cout << val << " ";
+    }
+
+    //this prints the elelemts of set in decreasing order
+    set<int, greater<int>> mySet = {5, 3, 8, 1, 3};
+    for (auto val : mySet)
+    {
+        cout << val << " ";
+    }
+    */
+
+    //18 oct 2023
+    set<int> mySet ;
     mySet.insert(1);
     mySet.insert(2);
     mySet.insert(3);
